@@ -36,7 +36,7 @@ def collect_people():
             'age': calculate_age(birthdate),
             'day': get_day_name(birthdate)}
         people.append(person)
-        return people
+    return people
 
 def display_results(people):
     print("\n=== Results ===")
